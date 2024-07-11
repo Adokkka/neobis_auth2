@@ -156,3 +156,10 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = '2000.adoka@gmail.com'
 EMAIL_HOST_PASSWORD = 'gpui gqfg cosc nzoh'
+
+
+CSRF_TRUSTED_ORIGINS = ['https://aibek-backender.org.kg']
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_HEADERS = "*"
